@@ -1,0 +1,242 @@
+<!-- Ahad Ghazi, 2113641, SE2, Assignment -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahad's Resume</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- Bootstrap library -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <header>
+      <div class="container">
+        <nav>
+          <h2 class="logo">Ahad Alqahtani</h2>
+          <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#certificates">Certificates and Awards</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, I'm <span>Ahad Alqahtani</span></h1>
+        <h3 class="typing-text">I'm an aspiring Software Engineer</h3>
+        <p>
+          Currently getting my Bachelor's Degree at the
+          <span>University of Jeddah</span><br />
+          College of Computer Science and Engineering <br />
+          2021-2026
+        </p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/ahadgalqahtani" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/ahadgalqahtani" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="certificates" id="certificates">
+      <div class="container">
+        <div class="row">
+            <h2 class="sectiong-heading">Certificates and Awards</h2>
+        </div>
+        <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <h3>Excellence Certificate</h3>
+                        <p>For getting (Excellent) grade in two successive semesters, the University granted this certificate in recognition of excellence.</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <h3>Data Collection and Processing with Python</h3>
+                        <p>an online non-credit course authorized by University of Michigan and offered through Coursera</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <h3>Calculus for Machine Learning and Data Science</h3>
+                        <p>an online non-credit course authorized by DeepLearning.AI and offered through Coursera</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="container">
+        <div id="infoCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- First Slide -->
+            <div class="carousel-item active">
+              <div
+                class="d-flex align-items-center justify-content-center flex-column text-center"
+              >
+                <h3>Human Computer Interactions Project</h3>
+                <p>
+                  For this course, we were tasked to redesign a pre-existing
+                  application to make it more user friendly.<br />
+                  My teammates and I created a prototype of
+                  <span>GoodReads</span> application on Figma.
+                </p>
+                <div class="d-flex justify-content-center gap-3">
+                  <img
+                    src="pr11.png"
+                    class="d-block w-50 mb-3"
+                    alt="Image of GoodReads prototype"
+                  />
+                  <img
+                    src="pr12.png"
+                    class="d-block w-50 mb-3"
+                    alt="Image of GoodReads prototype"
+                  />
+                  <img
+                    src="pr13.png"
+                    class="d-block w-50 mb-3"
+                    alt="Image of GoodReads prototype"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Second Slide -->
+            <div class="carousel-item">
+              <div
+                class="d-flex align-items-center justify-content-center flex-column text-center"
+              >
+                <h3>Mobile Application Programming Project</h3>
+                <p>
+                  For this course, we were tasked to design and implement an
+                  application on <span>Android Studio</span>.<br />
+                  My teammates and I created an app that helps unite the
+                  logistics tasks of a manager that oversees a driver delivering
+                  goods.
+                </p>
+                <div class="d-flex justify-content-center gap-3">
+                  <img
+                    src="pr21.png"
+                    class="d-block w-50 mb-3"
+                    alt="Image of Logistics app"
+                  />
+                  <img
+                    src="pr22.png"
+                    class="d-block w-50 mb-3"
+                    alt="Image of Logistics app"
+                  />
+                  <img
+                    src="pr23.png"
+                    class="d-block w-50 mb-3"
+                    alt="Image of Logistics app"
+                  />
+                  <img
+                    src="pr24.png"
+                    class="d-block w-50 mb-3"
+                    alt="Image of Logistics app"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#infoCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#infoCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact-container">
+        <form
+          action="https://api.web3forms.com/submit"
+          method="POST"
+          class="contact-left"
+        >
+          <div class="contact-left-title">
+            <h1>Get in Touch</h1>
+            <hr />
+          </div>
+          <input
+            type="hidden"
+            name="access_key"
+            value="bbf3e7f8-be5a-4c2e-98d4-be7027d218dc"
+          />
+          <input
+            type="text"
+            name="name"
+            placeholder="Your name"
+            class="contact-inputs"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your E-mail"
+            class="contact-inputs"
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            class="contact-inputs"
+            required
+          ></textarea>
+          <button type="submit">
+            Submit <img src="arrow.png" alt="arrow icon" />
+          </button>
+        </form>
+        <div class="contact-middle">
+          <p>Phone Number: +966 544545712</p>
+          <p>Email: ahadgalqahtani@gmail.com</p>
+        </div>
+        <div class="contact-right">
+          <a
+            href="AhadGhaziResume.pdf"
+            download="AhadGhaziResume.pdf"
+            class="download-btn"
+          >
+            Download My CV <img src="download-icon.png" alt="Download Icon" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <a href="#" class="scroll-to-top">↑</a>
+  </body>
+</html>
